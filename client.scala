@@ -5,7 +5,7 @@ object MyClient {
 	def main(args: Array[String]) {
 		if (args.length < 2) {
 			printf("scala MyClient hostname port")
-			return ;
+			return
 		}
 
 		val host = args(0)

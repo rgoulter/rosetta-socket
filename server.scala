@@ -5,7 +5,7 @@ object MyServer {
 	def main(args: Array[String]) {
 		if (args.length < 1) {
 			printf("scala MyServer port")
-			return ;
+			return
 		}
 
 		val port: Int = args(0).toInt
